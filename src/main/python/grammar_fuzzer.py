@@ -5,7 +5,7 @@ from html5lib import HTMLParser
 def return_null():
     pass
 
-def random_str(size=10):
+def random_str(size=100):
     return ''.join(random.sample(string.ascii_letters + string.digits, k=size))
 
 def nested_tags(max_depth=30, current_depth=0):
